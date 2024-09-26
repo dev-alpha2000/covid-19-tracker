@@ -10,17 +10,24 @@ Link to the app: [COVID-19 Tracker](https://covid-19-tracker-dashboard.netlify.a
 
 <img src="src/images/ss1.png">
 <img src="src/images/ss2.png">
-Overview
+
+## Overview
+
 This project is a COVID-19 Tracker built using React. It provides real-time data on COVID-19 cases, recoveries, and deaths worldwide, with the ability to filter by country. The data is fetched from a reliable API, and the app offers a clean interface for users to visualize the latest statistics using charts and maps.
 
-Features
+## Features
+
 Global COVID-19 Data: Displays total confirmed cases, active cases, recoveries, and deaths.
+
 Country-Specific Data: Allows users to view COVID-19 data by selecting a specific country.
+
 Interactive Charts: Visualizes data trends using charts (e.g., line graphs, bar charts).
+
 Map View: Shows a world map highlighting affected areas and the intensity of cases.
+
 Responsive Design: The app is optimized for mobile, tablet, and desktop devices.
 
-Installation
+## Installation
 To run this project locally, follow these steps:
 
 Clone the repository:
@@ -41,14 +48,15 @@ Copy code
 npm start
 The app will be available at http://localhost:3000.
 
-Usage
+## Usage
+
 View Global Data: Upon loading, the app displays global COVID-19 statistics including total confirmed cases, active cases, recoveries, and deaths.
+
 Select Country: Use the dropdown to select a country and view COVID-19 statistics specific to that region.
+
 Charts and Map: Visualize the data using interactive charts and a world map to better understand trends and impacts globally and locally.
-Customization
-API Source: Update the API endpoint in api/ if you'd like to use another COVID-19 data source such as COVID-19 API or Disease.sh.
-Styling: Modify App.css to change the appearance of the app, such as updating colors, fonts, or layouts.
-Charts and Maps: Add more detailed charts (e.g., daily cases, vaccination data) or enhance the map to include different data layers (e.g., case density, recovery rate).
+
+
 Example
 When you open the app:
 
