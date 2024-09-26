@@ -57,16 +57,24 @@ Select Country: Use the dropdown to select a country and view COVID-19 statistic
 Charts and Map: Visualize the data using interactive charts and a world map to better understand trends and impacts globally and locally.
 
 
-Example
+## Example
 When you open the app:
 
 The homepage displays global COVID-19 statistics with visual charts and an interactive map.
+
 Users can select a specific country from the dropdown, and the app will update to show that country's data.
+
 The charts show the historical trend of cases, and the map highlights affected areas.
-Dependencies
+
+## Dependencies
+
 React: Frontend framework for building the UI.
+
 Axios: For making API requests to fetch COVID-19 data.
+
 Chart.js or Recharts: For creating data visualizations.
+
 Leaflet: For the interactive map showing case distribution.
+
 CSS or Styled Components: For styling the app.
 Contributing
