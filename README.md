@@ -19,3 +19,46 @@ Country-Specific Data: Allows users to view COVID-19 data by selecting a specifi
 Interactive Charts: Visualizes data trends using charts (e.g., line graphs, bar charts).
 Map View: Shows a world map highlighting affected areas and the intensity of cases.
 Responsive Design: The app is optimized for mobile, tablet, and desktop devices.
+
+Installation
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/covid-tracker.git
+cd covid-tracker
+Install the dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+The app will be available at http://localhost:3000.
+
+Usage
+View Global Data: Upon loading, the app displays global COVID-19 statistics including total confirmed cases, active cases, recoveries, and deaths.
+Select Country: Use the dropdown to select a country and view COVID-19 statistics specific to that region.
+Charts and Map: Visualize the data using interactive charts and a world map to better understand trends and impacts globally and locally.
+Customization
+API Source: Update the API endpoint in api/ if you'd like to use another COVID-19 data source such as COVID-19 API or Disease.sh.
+Styling: Modify App.css to change the appearance of the app, such as updating colors, fonts, or layouts.
+Charts and Maps: Add more detailed charts (e.g., daily cases, vaccination data) or enhance the map to include different data layers (e.g., case density, recovery rate).
+Example
+When you open the app:
+
+The homepage displays global COVID-19 statistics with visual charts and an interactive map.
+Users can select a specific country from the dropdown, and the app will update to show that country's data.
+The charts show the historical trend of cases, and the map highlights affected areas.
+Dependencies
+React: Frontend framework for building the UI.
+Axios: For making API requests to fetch COVID-19 data.
+Chart.js or Recharts: For creating data visualizations.
+Leaflet: For the interactive map showing case distribution.
+CSS or Styled Components: For styling the app.
+Contributing
